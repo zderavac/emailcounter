@@ -18,6 +18,7 @@ import org.springframework.stereotype.Component;
 import com.minya.emailcounter.configuration.UniqueEmailProperties;
 
 /**
+Serice Helper class taht does the work. Methods are invoked from Service class
  * Assumptions: 
  * 1. Subdomains resolve to different email addresses 
  * 		Ex: me@me.com is not equal to me@me.me.com 
