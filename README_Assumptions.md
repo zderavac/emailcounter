@@ -23,11 +23,11 @@ Assumptions
 	6. All coming URLs are in valid URL format
 	
 			Validation of URL format is not implemented (except check URL for null value)
+		
 			
-			
-			
-to test 
-1.Run Unit tests
-2.Run EmailcounterApplication as spring boot application 
-	Go to browser and hit URL
-		http://localhost:8080/count?emails=test.email@gmail.com,test.email%2Bspam@gmail.com,testemail@gmail.com
+	To run and test
+	1.Run Unit tests
+	2. mvn clean install
+		Run EmailcounterApplication as spring boot application 
+		Go to browser and hit URL
+			http://localhost:8080/count?emails=test.email@gmail.com,test.email%2Bspam@gmail.com,testemail@gmail.com
