@@ -37,6 +37,11 @@ public class EmalCheckerController {
 	@Autowired
 	UniqueEmailService uniqueEmailService;
 	
+	 /**
+	 * Email counter resource
+	 * @param emails
+	 * @return Number of unique emails
+	 */
 	@GetMapping("/count")
 	public Integer getUniqueEmailCount(@RequestParam(value="emails") List<String> emails) {
 		System.out.println(emails);
